@@ -1,0 +1,6 @@
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+print("Среднее арифметическое", (a+b+c+d) / 4)
+print("Среднее геометрическое", (a*b*c*d) ** (1/4))

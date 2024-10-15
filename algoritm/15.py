@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+arif = b + (b - a)
+geom = b * ( b // a)
+print(arif, geom)

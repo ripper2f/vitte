@@ -1,0 +1,10 @@
+n1 = int(input("n1: "))
+n2 = int(input("n2: "))
+x1 = int(input("xa1: "))
+y1 = int(input("ya1: "))
+x2 = int(input("xa2: "))
+y2 = int(input("ya2: "))
+Y = n1 / n2
+x = (x1+Y*x2) / (1+Y)
+y = (y1+Y*y2) / (1+Y)
+print(f"a1 = {x}, a2 = {y}")
